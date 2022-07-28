@@ -17,7 +17,7 @@
     <p style="text-align: center;font-style: italic;">Cook time:5 minutes</p>
     <p style="text-align: center;font-style: italic;">Total:30 minutes</p>
     <p style="text-align: center;font-style: italic;">Servers: 8</p>
-    <h2 style="text-align: center;font-style: italic;margin-left: -45rem;">Ingredients</h2>
+    <h2 class="ingrediants">Ingredients</h2>
     <ul class="list">
         <li>12 ounces of Spam</li>
         <li>1/4 cup of oyster sauce</li>
@@ -27,7 +27,7 @@
         <li>6 cups cooked sushi rice WITHOUT the vinegar mixture added for the Sushi Rice Recipe</li>
     </ul>
 
-    <h2 style="text-align: center;font-style: italic;margin-left: -45rem;">Instructions</h2>
+    <h2 class="instructions">Instructions</h2>
     <ol class="list">
         <li>Slice the SPAM into about 8-10 slices (depending on how thick you like it) and put in a 
             <br>Ziplock bag.Mix oyster sauce, soy sauce and sugar until sugar is dissolved and 
@@ -58,6 +58,11 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
 h1 {
     text-align: center;
 }
+.ingrediants {
+    text-align: center;
+    font-style: italic;
+    margin-left: -45rem;
+}
 body {
     background-color:transparent;
 }
@@ -66,6 +71,11 @@ h2 {
 }
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.instructions {
+    text-align: center;
+    font-style: italic;
+    margin-left: -45rem;
 }
 .list {
     display: block;
@@ -103,6 +113,36 @@ img {
 li {
     padding-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 390px) {
+  img {
+    height: 174px;
+  }
+  .ingrediants {
+      margin-left: 0rem;
+  }
+  .list {
+      margin-left: 0rem;
+  }
+  .instructions {
+      margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 400px), (max-width: 412px), (max-width: 428px) {
+  img {
+    height: 174px;
+    
+  }
+  .ingrediants {
+      margin-left: 0rem;
+  }
+  .list {
+      margin-left: 0rem;
+  }
+  .instructions {
+      margin-left: 0rem;
+  }
 }
     </style>
 </body>
