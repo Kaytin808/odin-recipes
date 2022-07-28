@@ -35,3 +35,9 @@
     margin: 0;
     padding: 0;
   }
+  @media only screen and (max-width: 412px) {
+      .github {
+        width: 50px;
+        padding: 11px;
+      }
+  }
